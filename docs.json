@@ -40,31 +40,54 @@
     "timestamp": false
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Get started",
-        "icon": "rocket",
-        "pages": [
-          "index.mdx",
-          "quickstart.mdx"
+        "tab": "Início"
+      },
+      {
+        "tab": "Imigração",
+        "groups": [
+          {
+            "group": "Get started",
+            "icon": "rocket",
+            "pages": [
+              "index.mdx",
+              "quickstart.mdx"
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "pages": [
+              "guides/study.mdx",
+              "guides/work.mdx",
+              "guides/immigration.mdx"
+            ]
+          },
+          {
+            "group": "Resources",
+            "icon": "library",
+            "pages": [
+              "resources/faq.mdx",
+              "resources/contact.mdx"
+            ]
+          }
         ]
       },
       {
-        "group": "Guides",
-        "icon": "book-open",
-        "pages": [
-          "guides/study.mdx",
-          "guides/work.mdx",
-          "guides/immigration.mdx"
-        ]
+        "tab": "Trabalho no Canadá"
       },
       {
-        "group": "Resources",
-        "icon": "library",
-        "pages": [
-          "resources/faq.mdx",
-          "resources/contact.mdx"
-        ]
+        "tab": "Estudar no Canadá"
+      },
+      {
+        "tab": "Idioma"
+      },
+      {
+        "tab": "Extras"
+      },
+      {
+        "tab": "Área VIP / Mentoria"
       }
     ]
   }
