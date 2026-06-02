@@ -57,15 +57,26 @@
               }
             ]
           }
+        ],
+        "hidden": true
+      },
+      {
+        "tab": "Início",
+        "pages": [
+          "untitled-page"
         ]
       },
       {
         "tab": "Imigração",
         "groups": [
           {
-            "group": "Get started",
+            "group": "Visão Geral",
             "icon": "rocket",
-            "pages": []
+            "pages": [
+              "como-funciona",
+              "plano-a-b-e-c",
+              "express-entry"
+            ]
           },
           {
             "group": "Guides",
@@ -80,7 +91,14 @@
         ]
       },
       {
-        "tab": "Trabalho no Canadá"
+        "tab": "Trabalho no Canadá",
+        "pages": [
+          "",
+          "treinamento-completo",
+          "futuro-do-mercado-de-trabalho",
+          "resume",
+          "entrevista"
+        ]
       },
       {
         "tab": "Estudar no Canadá"
@@ -92,19 +110,19 @@
         "tab": "Extras"
       },
       {
-        "tab": "Início",
-        "groups": [
-          {
-            "group": "Comece Aqui",
-            "pages": []
-          }
-        ]
-      },
-      {
         "tab": "Área VIP / Mentoria"
       },
       {
-        "tab": "agora"
+        "tab": "agora",
+        "pages": [
+          "test-page",
+          {
+            "group": "testing group",
+            "pages": [
+              "page-under-group"
+            ]
+          }
+        ]
       }
     ]
   }
