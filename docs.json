@@ -42,25 +42,6 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "hcgfh",
-        "versions": [
-          {
-            "version": "Untitled Version",
-            "products": [
-              {
-                "product": "Untitled Product",
-                "anchors": [
-                  {
-                    "anchor": "test anchor"
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "hidden": true
-      },
-      {
         "tab": "Início",
         "pages": [
           "untitled-page"
@@ -95,6 +76,7 @@
       {
         "tab": "Trabalho no Canadá",
         "pages": [
+          "visao-geral-empregos",
           "visao-geral-emprego",
           "treinamento-geral",
           "treinamento-completo",
