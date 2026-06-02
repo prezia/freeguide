@@ -1,6 +1,6 @@
 {
   "theme": "mint",
-  "name": "PlanoCanada",
+  "name": "Plano Canada - Irmãos Prezia",
   "description": "Your guide to studying, working, and living in Canada.",
   "colors": {
     "primary": "#001A72",
@@ -20,7 +20,13 @@
       "type": "button",
       "label": "Get started",
       "href": "/quickstart"
-    }
+    },
+    "links": [
+      {
+        "href": "https://www.irmaosprezia.com",
+        "label": "Site Oficial"
+      }
+    ]
   },
   "footer": {
     "socials": {
@@ -74,6 +80,12 @@
         ]
       },
       {
+        "tab": "Emprego no Canadá",
+        "pages": [
+          "sobre-trabalhar-no-canada"
+        ]
+      },
+      {
         "tab": "Estudar no Canadá",
         "pages": [
           "estudar-no-canada"
@@ -101,12 +113,6 @@
               "page-under-group"
             ]
           }
-        ]
-      },
-      {
-        "tab": "Emprego no Canadá",
-        "pages": [
-          "sobre-trabalhar-no-canada"
         ]
       }
     ]
