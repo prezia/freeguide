@@ -1,0 +1,71 @@
+{
+  "theme": "aspen",
+  "name": "PlanoCanada",
+  "description": "Your guide to studying, working, and living in Canada.",
+  "colors": {
+    "primary": "#D52B1E",
+    "light": "#FF6B6B",
+    "dark": "#8B0000"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.ico",
+  "background": {
+    "decoration": "grid"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Get started",
+      "href": "/quickstart"
+    }
+  },
+  "footer": {
+    "socials": {
+      "instagram": "https://instagram.com/planocanada"
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "banner": {
+    "content": "Abertura de Inscrições Área VIP - 16 de Junho"
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get started",
+        "icon": "rocket",
+        "pages": [
+          "index.mdx",
+          "quickstart.mdx"
+        ]
+      },
+      {
+        "group": "Guides",
+        "icon": "book-open",
+        "pages": [
+          "guides/study.mdx",
+          "guides/work.mdx",
+          "guides/immigration.mdx"
+        ]
+      },
+      {
+        "group": "Resources",
+        "icon": "library",
+        "pages": [
+          "resources/faq.mdx",
+          "resources/contact.mdx"
+        ]
+      }
+    ]
+  }
+}
