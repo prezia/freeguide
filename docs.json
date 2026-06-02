@@ -79,9 +79,11 @@
             ]
           },
           {
-            "group": "Guides",
+            "group": "Extras",
             "icon": "book-open",
-            "pages": []
+            "pages": [
+              "links-uteis"
+            ]
           },
           {
             "group": "Resources",
@@ -93,6 +95,12 @@
       {
         "tab": "Trabalho no Canadá",
         "pages": [
+          "treinamento-geral",
+          "treinamento-completo",
+          "resume",
+          "entrevista",
+          "acelerador",
+          "sites-de-emprego",
           "",
           "treinamento-completo",
           "futuro-do-mercado-de-trabalho",
@@ -101,13 +109,19 @@
         ]
       },
       {
-        "tab": "Estudar no Canadá"
+        "tab": "Estudar no Canadá",
+        "pages": [
+          "estudar-no-canada"
+        ]
       },
       {
         "tab": "Idioma"
       },
       {
-        "tab": "Extras"
+        "tab": "Extras",
+        "pages": [
+          "de-costa-a-costa"
+        ]
       },
       {
         "tab": "Área VIP / Mentoria"
