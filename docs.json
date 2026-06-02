@@ -40,65 +40,71 @@
     "timestamp": false
   },
   "navigation": {
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "test",
-        "tabs": [
+        "tab": "hcgfh",
+        "versions": [
           {
-            "tab": "Imigração",
-            "groups": [
+            "version": "Untitled Version",
+            "products": [
               {
-                "group": "Get started",
-                "icon": "rocket",
-                "pages": [
-                  "index.mdx",
-                  "quickstart.mdx"
+                "product": "Untitled Product",
+                "anchors": [
+                  {
+                    "anchor": "test anchor"
+                  }
                 ]
-              },
-              {
-                "group": "Guides",
-                "icon": "book-open",
-                "pages": [
-                  "guides/study.mdx",
-                  "guides/work.mdx",
-                  "guides/immigration.mdx"
-                ]
-              },
-              {
-                "group": "Resources",
-                "icon": "library",
-                "pages": [
-                  "resources/faq.mdx",
-                  "resources/contact.mdx"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "Trabalho no Canadá"
-          },
-          {
-            "tab": "Estudar no Canadá"
-          },
-          {
-            "tab": "Idioma"
-          },
-          {
-            "tab": "Extras"
-          },
-          {
-            "tab": "Área VIP / Mentoria"
-          },
-          {
-            "tab": "Início",
-            "groups": [
-              {
-                "group": "Comece Aqui",
-                "pages": []
               }
             ]
           }
         ]
+      },
+      {
+        "tab": "Imigração",
+        "groups": [
+          {
+            "group": "Get started",
+            "icon": "rocket",
+            "pages": []
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "pages": []
+          },
+          {
+            "group": "Resources",
+            "icon": "library",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "tab": "Trabalho no Canadá"
+      },
+      {
+        "tab": "Estudar no Canadá"
+      },
+      {
+        "tab": "Idioma"
+      },
+      {
+        "tab": "Extras"
+      },
+      {
+        "tab": "Início",
+        "groups": [
+          {
+            "group": "Comece Aqui",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "tab": "Área VIP / Mentoria"
+      },
+      {
+        "tab": "agora"
       }
     ]
   }
