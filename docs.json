@@ -1,11 +1,11 @@
 {
-  "theme": "aspen",
+  "theme": "mint",
   "name": "PlanoCanada",
   "description": "Your guide to studying, working, and living in Canada.",
   "colors": {
-    "primary": "#D52B1E",
-    "light": "#FF6B6B",
-    "dark": "#8B0000"
+    "primary": "#001A72",
+    "light": "#599AD7",
+    "dark": "#001A72"
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -40,54 +40,65 @@
     "timestamp": false
   },
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Início"
-      },
-      {
-        "tab": "Imigração",
-        "groups": [
+        "dropdown": "test",
+        "tabs": [
           {
-            "group": "Get started",
-            "icon": "rocket",
-            "pages": [
-              "index.mdx",
-              "quickstart.mdx"
+            "tab": "Imigração",
+            "groups": [
+              {
+                "group": "Get started",
+                "icon": "rocket",
+                "pages": [
+                  "index.mdx",
+                  "quickstart.mdx"
+                ]
+              },
+              {
+                "group": "Guides",
+                "icon": "book-open",
+                "pages": [
+                  "guides/study.mdx",
+                  "guides/work.mdx",
+                  "guides/immigration.mdx"
+                ]
+              },
+              {
+                "group": "Resources",
+                "icon": "library",
+                "pages": [
+                  "resources/faq.mdx",
+                  "resources/contact.mdx"
+                ]
+              }
             ]
           },
           {
-            "group": "Guides",
-            "icon": "book-open",
-            "pages": [
-              "guides/study.mdx",
-              "guides/work.mdx",
-              "guides/immigration.mdx"
-            ]
+            "tab": "Trabalho no Canadá"
           },
           {
-            "group": "Resources",
-            "icon": "library",
-            "pages": [
-              "resources/faq.mdx",
-              "resources/contact.mdx"
+            "tab": "Estudar no Canadá"
+          },
+          {
+            "tab": "Idioma"
+          },
+          {
+            "tab": "Extras"
+          },
+          {
+            "tab": "Área VIP / Mentoria"
+          },
+          {
+            "tab": "Início",
+            "groups": [
+              {
+                "group": "Comece Aqui",
+                "pages": []
+              }
             ]
           }
         ]
-      },
-      {
-        "tab": "Trabalho no Canadá"
-      },
-      {
-        "tab": "Estudar no Canadá"
-      },
-      {
-        "tab": "Idioma"
-      },
-      {
-        "tab": "Extras"
-      },
-      {
-        "tab": "Área VIP / Mentoria"
       }
     ]
   }
