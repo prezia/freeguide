@@ -74,24 +74,6 @@
         ]
       },
       {
-        "tab": "Trabalho no Canadá",
-        "pages": [
-          "visao-geral-empregos",
-          "visao-geral-emprego",
-          "treinamento-geral",
-          "treinamento-completo",
-          "resume",
-          "entrevista",
-          "acelerador",
-          "sites-de-emprego",
-          "",
-          "treinamento-completo",
-          "futuro-do-mercado-de-trabalho",
-          "resume",
-          "entrevista"
-        ]
-      },
-      {
         "tab": "Estudar no Canadá",
         "pages": [
           "estudar-no-canada"
@@ -119,6 +101,12 @@
               "page-under-group"
             ]
           }
+        ]
+      },
+      {
+        "tab": "Emprego no Canadá",
+        "pages": [
+          "sobre-trabalhar-no-canada"
         ]
       }
     ]
